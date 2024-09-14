@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f7f7f7;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.piano-container {
+  display: flex;
+  position: relative;
+}
+
+.key {
+ transition: background-color 0.2s; 
+ user-select: none;
+ cursor: pointer;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+
+.white-key {
+  width: 60px;
+  height: 200px;
+  background-color: white;
+  z-index: 1;
+  align-content: end;
+}
+
+.black-key {
+  color: white;
+  align-content: end;
+  width: 40px;
+  height: 120px;
+  background-color: black;
+   position: absolute;
+   z-index: 2;
+
+} 
+[data-note="C#4"] {
+  left: 35px;
+}
+[data-note="D#4"] {
+  left: 100px;
+}
+[data-note="F#4"] {
+  left: 215px;
+}
+
+[data-note="G#4"] {
+  left: 280px;
+}
+[data-note="A#4"] {
+  left: 345px;
+}
+
+ .key:active,
+.key.pressed {
+  background-color: #ddd;
+}
+
+.black-key:active,
+.black-key.pressed {
+  background-color: #555;
+}
+ 
+
+.key:hover {
+  background-color: #8cc1ed;
+}
