@@ -10,6 +10,8 @@ piano con teclas negras
 añadir sonidos reales
 deploy a servidor (gh-pages)
 
+
+
 https://github.com/nbrosowsky/tonejs-instruments/tree/master
 
 
@@ -40,3 +42,6 @@ npm install gh-pages --save-dev
 
 
 npm install --save-dev jest
+
+
+https://www.gradients.party/

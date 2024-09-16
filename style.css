@@ -7,6 +7,7 @@ body {
   height: 100vh;
   margin: 0;
   background-color: #f7f7f7;
+  background: linear-gradient(135deg,#667EEA,#6B8DD6,#8E37D7);
 }
 
 h1 {
